@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="/public/img/logo.svg" type="image/x-icon" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+
+  <title>Galdev Agency</title>
+</head>
+
+<body>
+  <header>
+    <h2 class="inline-logo">gal<strong>Dev</strong></h2>
+    <img src="/public/img/logo.svg" alt="Logo" />
+  </header>
+
+  <main>
+    <div class="transition">
+      <section class="hero">
+        <div class="background">
+          <img src="/public/img/bg-hero.webp" alt="">
+          <video></video>
+        </div>
+        <div class="subtitle">
+          <h3>Vamos criar algo incrível juntos</h3>
+          <video src="public/img/card-subtitulo.mp4" loop autoplay muted></video>
+        </div>
+
+        <div class="hero-content">
+          <h1>Criamos experiências digitais sob medida para marcas que querem se destacar</h1>
+          <p>Somos uma agência de desenvolvimento criativo especializada em projetos modernos, interativos e focados em
+            conversão. Transformamos ideias em produtos digitais funcionais e escaláveis.</p>
+
+          <div class="cta-buttons">
+            <a href="#" class="btn-primary">
+              Veja nossos trabalhos
+              <img src="/public/img/seta-botaoprimario.svg" alt="Seta para a direita" />
+            </a>
+            <a href="#" class="btn-secondary">
+              Vamos conversar
+              <img src="/public/img/seta-botaocontato.svg" alt="Seta para a direita" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="transition-rectangles">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <section class="message-section">
+        <h2>Não acreditamos em soluções genéricas. Cada projeto é pensado do zero, unindo estratégia, design e
+          desenvolvimento.</h2>
+      </section>
+    </div>
+
+    <section class="projects-section">
+      <h2>Nossos Projetos</h2>
+      <p>Cada projeto é pensado do zero, unindo estratégia, design e desenvolvimento.</p>
+
+      <div class="projects">
+        <img src="/public/img/projeto1.webp" alt="Projeto 1" />
+        <img src="/public/img/projeto2.webp" alt="Projeto 2" />
+        <img src="/public/img/projeto3.webp" alt="Projeto 3" />
+        <img src="/public/img/projeto4.webp" alt="Projeto 4" />
+      </div>
+    </section>
+  </main>
+
+  <div class="transition-footer">
+    <section class="animation-section">
+      <div class="diamond-3d"></div>
+      <h2>Design Único</h2>
+      <h2>Animações</h2>
+      <h2>Otimização</h2>
+    </section>
+
+    <footer>
+      <div class="background">
+        <img src="/public/img/bg-footer.webp" alt="">
+        <video></video>
+      </div>
+      <div class="copyright">
+        <h2 class="inline-logo">gal<strong>Dev</strong></h2>
+        <div>
+          <p>&copy; 2023 Galdev Agency. All rights reserved.</p>
+          <a href="#">Política de Privacidade</a>
+        </div>
+      </div>
+
+      <div class="footer-cta">
+        <h3>Seu negócio é único, seu projeto também precisa ser.</h3>
+        <p>Pronto para transformar sua presença digital em crescimento real para o seu negócio</p>
+
+        <div class="cta-buttons">
+          <a href="#" class="btn-primary">
+            Veja nossos trabalhos
+            <img src="/public/img/seta-botaoprimario.svg" alt="Seta para a direita" />
+          </a>
+          <a href="#" class="btn-secondary">
+            Vamos conversar
+            <img src="/public/img/seta-botaocontato.svg" alt="Seta para a direita" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/ScrollTrigger.min.js"></script>
+  <!-- ScrollSmoother requires ScrollTrigger -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/ScrollSmoother.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/SplitText.min.js"></script>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.183.2/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.183.2/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
